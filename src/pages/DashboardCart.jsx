@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 import { GoSortDesc } from "react-icons/go";
-import { getLocalItem } from "../utils/localstorage";
+import { getLocalItem, removeLocalItem } from "../utils/localstorage";
 import CartItem from "../components/CartItem";
 import Modal from "../components/Modal";
+import { useNavigate } from "react-router-dom";
 
 export default function DashboardCart() {
   const [cartItems, setCartItem] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [modal, setModal] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const allCarts = getLocalItem("cart");
@@ -37,6 +39,8 @@ export default function DashboardCart() {
     setTotalPrice(0);
     setCartItem([]);
     setModal(false);
+    navigate("/");
+    removeLocalItem();
   }
 
   return (

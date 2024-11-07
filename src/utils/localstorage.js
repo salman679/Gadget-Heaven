@@ -25,4 +25,7 @@ export function addLocalItem(itemName, item) {
 }
 
 // remove from local storage
-export function removeLocalItem() {}
+export function removeLocalItem() {
+  localStorage.removeItem("cart");
+  localStorage.removeItem("favorite");
+}
