@@ -8,10 +8,11 @@ import { useState } from "react";
 
 function DetailsCard({ gadget }) {
   const [disableFavorite, setDisableFavorite] = useState(false);
+  const [disableCart, setDisableCart] = useState(false);
 
   function handleCart(gadget) {
     addLocalItem("cart", gadget);
-
+    setDisableCart(true);
     toast.success("Successfully Added on Your Cart!");
   }
 
@@ -72,6 +73,7 @@ function DetailsCard({ gadget }) {
           </div>
           <div className="flex gap-2 items-center mt-3">
             <button
+              disabled={disableCart}
               onClick={() => handleCart(gadget)}
               className="bg-purple-600 flex items-center rounded-full font-bold text-white hover:text-purple-600 hover:bg-white border border-purple-600 gap-2 px-5 py-2 "
             >
