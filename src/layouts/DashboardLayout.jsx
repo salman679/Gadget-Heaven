@@ -3,11 +3,15 @@ import BannerHeader from "../components/BannerHeader";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet-async";
 
 function DashboardLayout() {
   return (
     <>
       <div className="bg-neutral-100">
+        <Helmet>
+          <title>Dashboard | GadgetHeaven</title>
+        </Helmet>
         <Toaster />
         <Header
           linkColor={"text-gray-600 hover:text-gray-700"}

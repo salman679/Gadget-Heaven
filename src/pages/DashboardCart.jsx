@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { GoSortDesc } from "react-icons/go";
 import { getLocalItem } from "../utils/localstorage";
 import CartItem from "../components/CartItem";
+import Modal from "../components/Modal";
 
 export default function DashboardCart() {
   const [cartItems, setCartItem] = useState([]);
@@ -29,10 +30,13 @@ export default function DashboardCart() {
   }
 
   function handlePurchase() {
+    setModal(true);
+  }
+
+  function onClose() {
     setTotalPrice(0);
     setCartItem([]);
-
-    setModal(true);
+    setModal(false);
   }
 
   return (
@@ -50,36 +54,16 @@ export default function DashboardCart() {
               <span>Sort by Price</span>
               <GoSortDesc />
             </button>
-            {/* <button
-              className="bg-purple-600 flex items-center rounded-full font-bold text-white border border-purple-600 gap-2 px-5 py-2"
-              onClick={handlePurchase}
-            >
-              Purchase
-            </button> */}
 
             <button
               className="btn bg-purple-600 flex items-center rounded-full font-bold text-white border border-purple-600 gap-2 px-5 py-2"
               onClick={handlePurchase}
+              disabled={totalPrice === 0}
             >
               Purchase
             </button>
 
-            {modal && (
-              <dialog id="my_modal_1" className="modal">
-                <div className="modal-box">
-                  <h3 className="font-bold text-lg">Hello!</h3>
-                  <p className="py-4">
-                    Press ESC key or click the button below to close
-                  </p>
-                  <div className="modal-action">
-                    <form method="dialog">
-                      {/* if there is a button in form, it will close the modal */}
-                      <button className="btn">Close</button>
-                    </form>
-                  </div>
-                </div>
-              </dialog>
-            )}
+            {modal && <Modal onClose={onClose} total={totalPrice} />}
           </div>
         </div>
 

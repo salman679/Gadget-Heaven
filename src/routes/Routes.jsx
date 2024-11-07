@@ -7,6 +7,7 @@ import Details from "../pages/Details";
 import DashboardLayout from "../layouts/DashboardLayout";
 import Wishlist from "../components/Wishlist";
 import DashboardCart from "../pages/DashboardCart";
+import About from "../pages/About";
 
 export const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ export const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Static />,
+      },
+      {
+        path: "/about-us",
+        element: <About />,
       },
     ],
   },

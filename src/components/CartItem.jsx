@@ -9,6 +9,7 @@ export default function CartItem({ cartItem, addButton = false }) {
 
     toast.success("Successfully Added The Item!!");
   }
+
   return (
     <div className="rounded-2xl bg-white p-7 flex justify-between ">
       <div className="flex  gap-4">
