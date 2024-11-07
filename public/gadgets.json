@@ -1,0 +1,210 @@
+[
+  {
+    "product_id": "301",
+    "product_title": "Smart Watch",
+    "product_image": "https://i.ibb.co.com/4YH0dyC/26143e76-b519-43e2-be7e-16d47cda5888.png",
+    "category": "Wearables",
+    "price": 79.99,
+    "description": "A smartwatch with health tracking and notifications.",
+    "specification": [
+      "Heart rate monitor",
+      "GPS tracking",
+      "Water-resistant",
+      "Battery life: 48 hours"
+    ],
+    "availability": false,
+    "rating": 4.5
+  },
+  {
+    "product_id": "302",
+    "product_title": "Wireless Earbuds",
+    "product_image": "https://i.ibb.co.com/ZVpp1Mp/air-mini-2-01-500x500.webp",
+    "category": "Wearables",
+    "price": 99.99,
+    "description": "Noise-cancelling wireless earbuds with high-quality sound.",
+    "specification": [
+      "Bluetooth 5.1",
+      "Active Noise Cancellation",
+      "Charging case",
+      "Battery life: 24 hours"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "303",
+    "product_title": "Fitness Tracker",
+    "product_image": "https://i.ibb.co.com/RvrpCGQ/d56eeaa21522d8918ee1cedde9dea91293-rsquare-w600.webp",
+    "category": "Wearables",
+    "price": 65.0,
+    "description": "Fitness tracker with step counter, sleep monitor, and calorie tracker.",
+    "specification": [
+      "Step counting",
+      "Sleep monitoring",
+      "Waterproof",
+      "Battery life: 7 days"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "304",
+    "product_title": "Portable Bluetooth Speaker",
+    "product_image": "https://i.ibb.co.com/B66VLTS/download.jpg",
+    "category": "Audio",
+    "price": 59.99,
+    "description": "Compact Bluetooth speaker with deep bass and long battery life.",
+    "specification": [
+      "Bluetooth 5.0",
+      "Waterproof",
+      "Battery life: 12 hours",
+      "Compact design"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "305",
+    "product_title": "Noise Cancelling Headphones",
+    "product_image": "https://i.ibb.co.com/PMbmPVc/VILINICE-Noise-Cancelling-Headphones-Wireless-Bluetooth-Over-Ear-Headphones-with-Microphone-Black-Q8.webp",
+    "category": "Audio",
+    "price": 129.99,
+    "description": "High-quality noise-cancelling headphones with clear sound.",
+    "specification": [
+      "Over-ear design",
+      "Active Noise Cancellation",
+      "Battery life: 30 hours",
+      "Built-in microphone"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "306",
+    "product_title": "Smart Glasses",
+    "product_image": "https://i.ibb.co.com/RvGY0zm/Smart-glasses-1.webp",
+    "category": "Wearables",
+    "price": 150.0,
+    "description": "Smart glasses with augmented reality features.",
+    "specification": [
+      "Bluetooth connectivity",
+      "AR support",
+      "Polarized lenses",
+      "Battery life: 5 hours"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "307",
+    "product_title": "4K Action Camera",
+    "product_image": "https://i.ibb.co.com/9qrLfzm/JJAAh-Ndvxn-YVu-BSVbxq-Q7w6-Z4dm-GX8-RQd-W5-G3-Gp-A.webp",
+    "category": "Cameras",
+    "price": 99.99,
+    "description": "Waterproof action camera with 4K recording capability.",
+    "specification": [
+      "4K recording",
+      "Waterproof up to 30m",
+      "Wide-angle lens",
+      "Battery life: 2 hours"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "308",
+    "product_title": "Digital SLR Camera",
+    "product_image": "https://i.ibb.co.com/K6fqbYq/nikon-d7500-digital-slr-camera-with-af-s-dx-51578311750.webp",
+    "category": "Cameras",
+    "price": 499.99,
+    "description": "Professional-grade DSLR camera with multiple lenses.",
+    "specification": [
+      "24MP sensor",
+      "4K video recording",
+      "Interchangeable lenses",
+      "Battery life: 5 hours"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "309",
+    "product_title": "Smart Ring",
+    "product_image": "https://i.ibb.co.com/88jhCr3/DALL-E-2024-05-01-13-26-15-A-photorealistic-landscape-oriented-image-of-a-futuristic-smart-ring-The.webp",
+    "category": "Wearables",
+    "price": 89.99,
+    "description": "A smart ring with biometric sensors and activity tracking.",
+    "specification": [
+      "Biometric sensors",
+      "Activity tracking",
+      "Bluetooth connection",
+      "Battery life: 2 days"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "310",
+    "product_title": "Home Security Camera",
+    "product_image": "https://i.ibb.co.com/8XBXmWK/arlo-pro-5s-2k-installation1.webp",
+    "category": "Cameras",
+    "price": 150.0,
+    "description": "Indoor/outdoor security camera with motion detection and night vision.",
+    "specification": [
+      "1080p video quality",
+      "Night vision",
+      "Motion detection",
+      "Weatherproof design"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "311",
+    "product_title": "Drone with 4K Camera",
+    "product_image": "https://i.ibb.co.com/WcNZPq7/2f82657d-7d37-40bb-8722-03f2cc4fd9f8.png",
+    "category": "Cameras",
+    "price": 299.99,
+    "description": "High-quality drone with 4K camera and long flight time.",
+    "specification": [
+      "4K video recording",
+      "GPS functionality",
+      "30-minute flight time",
+      "Remote control included"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "312",
+    "product_title": "Bluetooth Car Speaker",
+    "product_image": "https://i.ibb.co.com/8dCT8Yr/assets-newatlas.jpg",
+    "category": "Audio",
+    "price": 54.99,
+    "description": "Bluetooth car speaker with hands-free calling.",
+    "specification": [
+      "Hands-free calling",
+      "Bluetooth 5.0",
+      "Compact design",
+      "Long-lasting battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "313",
+    "product_title": "Mini Projector",
+    "product_image": "https://i.ibb.co.com/9sb9qqd/portable-mini-projector-01.jpg",
+    "category": "Cameras",
+    "price": 120.0,
+    "description": "Compact mini projector with HD quality and HDMI input.",
+    "specification": [
+      "HD resolution",
+      "HDMI input",
+      "Portable design",
+      "Built-in speakers"
+    ],
+    "availability": true,
+    "rating": 4.4
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "category_id": "1",
+    "category_name": "Wearables",
+    "description": "Devices that can be worn on the body, including smartwatches, fitness trackers, and more."
+  },
+  {
+    "category_id": "2",
+    "category_name": "Audio",
+    "description": "High-quality audio devices, including headphones, earbuds, and speakers."
+  },
+  {
+    "category_id": "3",
+    "category_name": "Cameras",
+    "description": "Cameras and recording devices for capturing images and videos, including action cameras, drones, and security cameras."
+  }
+]
