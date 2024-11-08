@@ -37,27 +37,26 @@ export const router = createBrowserRouter([
         loader: () => fetch(`/gadgets.json`),
       },
       {
+        path: "/dashboard",
+        element: <DashboardLayout />,
+        children: [
+          {
+            path: "/dashboard",
+            element: <DashboardCart />,
+          },
+          {
+            path: "/dashboard/wishlist",
+            element: <Wishlist />,
+          },
+        ],
+      },
+      {
         path: "/statistics",
         element: <Static />,
       },
       {
         path: "/about-us",
         element: <About />,
-      },
-    ],
-  },
-
-  {
-    path: "/dashboard",
-    element: <DashboardLayout />,
-    children: [
-      {
-        path: "/dashboard/carts",
-        element: <DashboardCart />,
-      },
-      {
-        path: "/dashboard/wishlist",
-        element: <Wishlist />,
       },
     ],
   },

@@ -1,6 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import DetailsBanner from "../components/DetailsBanner";
-import Header from "../components/Header";
 import { useEffect, useState } from "react";
 
 export default function Details() {
@@ -19,7 +18,6 @@ export default function Details() {
 
   return (
     <>
-      <Header />
       <DetailsBanner gadget={gadget} />
     </>
   );

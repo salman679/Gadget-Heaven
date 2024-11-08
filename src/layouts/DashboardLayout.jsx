@@ -1,7 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
 import BannerHeader from "../components/BannerHeader";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import { Toaster } from "react-hot-toast";
 import { Helmet } from "react-helmet-async";
 
@@ -13,10 +11,6 @@ function DashboardLayout() {
           <title>Dashboard | GadgetHeaven</title>
         </Helmet>
         <Toaster />
-        <Header
-          linkColor={"text-gray-600 hover:text-gray-700"}
-          logoColor={"text-black"}
-        />
 
         <div className="bg-purple-600">
           <BannerHeader
@@ -28,7 +22,8 @@ function DashboardLayout() {
 
           <div className="flex items-center gap-2 justify-center pb-7">
             <NavLink
-              to="/dashboard/carts"
+              to={"/dashboard"}
+              end
               className={({ isActive }) =>
                 `${
                   isActive
@@ -56,8 +51,6 @@ function DashboardLayout() {
         </div>
 
         <Outlet />
-
-        <Footer />
       </div>
     </>
   );

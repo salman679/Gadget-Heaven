@@ -1,9 +1,6 @@
-import Header from "../components/Header";
-
 export default function About() {
   return (
     <>
-      <Header />
       <div className="max-w-screen-lg mx-auto px-6 py-12 text-gray-800">
         <h1 className="text-4xl font-bold text-purple-600 mb-4">
           About GadgetHeaven

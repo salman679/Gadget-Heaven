@@ -44,7 +44,8 @@ export default function Header({ logoColor, linkColor }) {
               className={({ isActive }) =>
                 `${isActive ? "font-bold text-purple-600" : ""}`
               }
-              to="/dashboard/carts"
+              to="/dashboard"
+              end
             >
               Dashboard
             </NavLink>
