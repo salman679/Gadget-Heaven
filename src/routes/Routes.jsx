@@ -8,11 +8,13 @@ import DashboardLayout from "../layouts/DashboardLayout";
 import Wishlist from "../components/Wishlist";
 import DashboardCart from "../pages/DashboardCart";
 import About from "../pages/About";
+import ErrorPage from "../components/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayouts />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -34,6 +36,7 @@ export const router = createBrowserRouter([
       {
         path: "/:productId",
         element: <Details />,
+        errorElement: <ErrorPage />,
         loader: () => fetch(`/gadgets.json`),
       },
       {
@@ -53,6 +56,7 @@ export const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Static />,
+        loader: () => fetch(`/gadgets.json`),
       },
       {
         path: "/about-us",

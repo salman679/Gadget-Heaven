@@ -19,7 +19,7 @@ export default function Header({ logoColor, linkColor }) {
               Home
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink
               className={({ isActive }) =>
                 `${isActive ? "font-bold text-purple-600" : ""}`
@@ -28,7 +28,7 @@ export default function Header({ logoColor, linkColor }) {
             >
               Statistics
             </NavLink>
-          </li> */}
+          </li>
           <li>
             <NavLink
               className={({ isActive }) =>
